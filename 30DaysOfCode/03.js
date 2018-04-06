@@ -26,8 +26,8 @@ Sample Input / Output
 3 => Weird
 */
 
-function main(n) {
-    //var N = parseInt(readLine());
+function main() {
+    var n = parseInt(readLine());
     if (n % 2 !== 0) {
         console.log("Weird");
     }
